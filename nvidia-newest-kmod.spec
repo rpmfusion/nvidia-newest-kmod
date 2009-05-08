@@ -8,7 +8,7 @@
 Name:          nvidia-newest-kmod
 Version:       177.82
 # Taken over by kmodtool
-Release:       1%{?dist}.9
+Release:       1%{?dist}.10
 Summary:       NVIDIA display driver kernel module
 Group:         System Environment/Kernel
 License:       Redistributable, no modification permitted
@@ -93,6 +93,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri May 08 2009 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 177.82-1.10
+- rebuild for new kernels
+
 * Wed Mar 25 2009 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 177.82-1.9
 - rebuild for new kernels
 
